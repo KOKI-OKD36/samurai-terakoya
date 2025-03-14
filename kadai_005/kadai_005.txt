@@ -1,0 +1,11 @@
+mkdir git_challenge
+cd git_challenge 
+git init
+echo "Hello, World!" > hello_world.txt
+type hello_world.txt
+git add hello_world.txt
+git commit -m
+echo "Welcome to Git challenge!" >> hello_world.txt
+type hello_world.txt
+git add hello_world.txt
+git commit -m
